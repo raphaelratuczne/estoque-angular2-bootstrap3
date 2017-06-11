@@ -1,0 +1,19 @@
+
+<div class="container vertical-center">
+  <div class="card card-container center-block">
+    <img id="logo-img" class="logo-img-card" src="assets/LogoWMS1.png" />
+    <p id="empresa-nome" class="empresa-nome-card"></p>
+    <form class="form-login">
+      <span id="email" class="email"></span>
+      <input type="email" id="inputEmail" class="form-control" placeholder="E-mail" required autofocus value="email@email.com">
+      <input type="password" id="inputPassword" class="form-control" placeholder="Senha" required value="123">
+      <div id="remember" class="checkbox">
+        <label>
+          <input type="checkbox" value="remember-me"> Salvar e continuar
+        </label>
+      </div>
+      <button class="btn btn-lg btn-primary btn-block btn-login" type="submit" (click)="login()">Login</button>
+    </form>
+    <a href="#" routerLink="/esqueci-senha" class="esqueceu-senha">Esqueceu sua senha?</a>
+  </div>
+</div>

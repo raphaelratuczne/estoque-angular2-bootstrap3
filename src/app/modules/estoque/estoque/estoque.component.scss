@@ -1,0 +1,76 @@
+@import '../../../app.component';
+
+// .dropdown-cart {
+//   min-width:350px;
+//
+//   .lista-itens {
+//     list-style-type: none;
+//     max-height: 250px;
+//     overflow: auto;
+//     padding: 0;
+//   }
+//
+//   .item {
+//     display:block;
+//     padding:3px 10px;
+//     margin: 3px 0;
+//
+//     &:hover{
+//       background-color:#f3f3f3;
+//     }
+//
+//     &:after{
+//       visibility: hidden;
+//       display: block;
+//       font-size: 0;
+//       content: " ";
+//       clear: both;
+//       height: 0;
+//     }
+//
+//     .item-left {
+//       float:left;
+//
+//       .item-info {
+//         float:left;
+//         margin-left:10px;
+//
+//         span {
+//           display:block;
+//         }
+//       }
+//     } /* .item-left */
+//
+//     .item-right {
+//       float:right;
+//
+//       button {
+//         margin-top:14px;
+//       }
+//     } /* .item-right */
+//
+//   } /* .item */
+// } /* .dropdown-cart */
+
+.container-lista {
+  padding-top: 55px;
+}
+
+.coluna-quantidade {
+  width: 100px;
+}
+
+.btn-criar-pedido {
+  margin-top: 10px;
+}
+
+.modal {
+  .modal-body {
+
+    .lista-itens2{
+      max-height: 318px;
+      overflow: auto;
+      margin-bottom: 10px;
+    }
+  }
+}
